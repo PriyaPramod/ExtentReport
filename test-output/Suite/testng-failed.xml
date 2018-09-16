@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.automation.generics.TestNGListeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.automation.testscripts.Inbox">
+        <methods>
+          <include name="deleteMail"/>
+          <include name="suiteSetUp"/>
+          <include name="methodSetUp"/>
+          <include name="methodTearDown"/>
+          <include name="suiteTearDown"/>
+        </methods>
+      </class> <!-- com.automation.testscripts.Inbox -->
+      <class name="com.automation.testscripts.SentItem">
+        <methods>
+          <include name="suiteSetUp"/>
+          <include name="methodSetUp"/>
+          <include name="verifyMail"/>
+          <include name="methodTearDown"/>
+          <include name="suiteTearDown"/>
+        </methods>
+      </class> <!-- com.automation.testscripts.SentItem -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

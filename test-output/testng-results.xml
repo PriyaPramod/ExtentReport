@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="2" total="6" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="48929" started-at="2018-09-16T07:10:43Z" finished-at="2018-09-16T07:11:32Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="48929" started-at="2018-09-16T07:10:43Z" finished-at="2018-09-16T07:11:32Z">
+      <class name="com.automation.testscripts.SentItem">
+        <test-method status="PASS" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:com.automation.testscripts.SentItem@2353b3e6]" name="methodSetUp" is-config="true" duration-ms="12041" started-at="2018-09-16T07:11:04Z" finished-at="2018-09-16T07:11:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.testscripts.SentItem.forwardMail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method status="PASS" signature="forwardMail()[pri:0, instance:com.automation.testscripts.SentItem@2353b3e6]" name="forwardMail" duration-ms="3" started-at="2018-09-16T07:11:17Z" finished-at="2018-09-16T07:11:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forwardMail -->
+        <test-method status="PASS" signature="methodTearDown(java.lang.reflect.Method)[pri:0, instance:com.automation.testscripts.SentItem@2353b3e6]" name="methodTearDown" is-config="true" duration-ms="983" started-at="2018-09-16T07:11:17Z" finished-at="2018-09-16T07:11:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.testscripts.SentItem.forwardMail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method status="PASS" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:com.automation.testscripts.SentItem@2353b3e6]" name="methodSetUp" is-config="true" duration-ms="5723" started-at="2018-09-16T07:11:18Z" finished-at="2018-09-16T07:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.testscripts.SentItem.verifyMail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method status="FAIL" signature="verifyMail()[pri:0, instance:com.automation.testscripts.SentItem@2353b3e6]" name="verifyMail" duration-ms="2" started-at="2018-09-16T07:11:23Z" finished-at="2018-09-16T07:11:23Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at com.automation.testscripts.SentItem.verifyMail(SentItem.java:13)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMail -->
+        <test-method status="PASS" signature="methodTearDown(java.lang.reflect.Method)[pri:0, instance:com.automation.testscripts.SentItem@2353b3e6]" name="methodTearDown" is-config="true" duration-ms="884" started-at="2018-09-16T07:11:31Z" finished-at="2018-09-16T07:11:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.testscripts.SentItem.verifyMail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+      </class> <!-- com.automation.testscripts.SentItem -->
+      <class name="com.automation.testscripts.Inbox">
+        <test-method status="PASS" signature="suiteSetUp()[pri:0, instance:com.automation.testscripts.Inbox@1a8a8f7c]" name="suiteSetUp" is-config="true" duration-ms="289" started-at="2018-09-16T07:10:43Z" finished-at="2018-09-16T07:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetUp -->
+        <test-method status="PASS" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:com.automation.testscripts.Inbox@1a8a8f7c]" name="methodSetUp" is-config="true" duration-ms="8487" started-at="2018-09-16T07:10:43Z" finished-at="2018-09-16T07:10:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.testscripts.Inbox.composeMail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method status="PASS" signature="composeMail()[pri:0, instance:com.automation.testscripts.Inbox@1a8a8f7c]" name="composeMail" duration-ms="13" started-at="2018-09-16T07:10:51Z" finished-at="2018-09-16T07:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- composeMail -->
+        <test-method status="PASS" signature="methodTearDown(java.lang.reflect.Method)[pri:0, instance:com.automation.testscripts.Inbox@1a8a8f7c]" name="methodTearDown" is-config="true" duration-ms="944" started-at="2018-09-16T07:10:51Z" finished-at="2018-09-16T07:10:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.testscripts.Inbox.composeMail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method status="PASS" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:com.automation.testscripts.Inbox@1a8a8f7c]" name="methodSetUp" is-config="true" duration-ms="10002" started-at="2018-09-16T07:10:52Z" finished-at="2018-09-16T07:11:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.testscripts.Inbox.deleteMail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method status="FAIL" signature="deleteMail()[pri:0, instance:com.automation.testscripts.Inbox@1a8a8f7c]" name="deleteMail" duration-ms="9" started-at="2018-09-16T07:11:02Z" finished-at="2018-09-16T07:11:02Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at com.automation.testscripts.Inbox.deleteMail(Inbox.java:18)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteMail -->
+        <test-method status="PASS" signature="methodTearDown(java.lang.reflect.Method)[pri:0, instance:com.automation.testscripts.Inbox@1a8a8f7c]" name="methodTearDown" is-config="true" duration-ms="970" started-at="2018-09-16T07:11:04Z" finished-at="2018-09-16T07:11:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.testscripts.Inbox.deleteMail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method status="PASS" signature="suiteTearDown()[pri:0, instance:com.automation.testscripts.Inbox@1a8a8f7c]" name="suiteTearDown" is-config="true" duration-ms="593" started-at="2018-09-16T07:11:32Z" finished-at="2018-09-16T07:11:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+      </class> <!-- com.automation.testscripts.Inbox -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

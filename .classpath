@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/Training/QSSW3/ExtentReport/resource/jars/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="D:/Training/QSSW3/ExtentReport/resource/jars/bson-3.3.0.jar"/>
+	<classpathentry kind="lib" path="D:/Training/QSSW3/ExtentReport/resource/jars/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="D:/Training/QSSW3/ExtentReport/resource/jars/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Training/QSSW3/ExtentReport/resource/jars/extentreports-3.1.5.jar"/>
+	<classpathentry kind="lib" path="D:/Training/QSSW3/ExtentReport/resource/jars/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="D:/Training/QSSW3/ExtentReport/resource/jars/gson-2.8.0.jar"/>
+	<classpathentry kind="lib" path="D:/Training/QSSW3/ExtentReport/resource/jars/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/Training/QSSW3/ExtentReport/resource/jars/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="D:/Training/QSSW3/ExtentReport/resource/jars/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/Training/QSSW3/ExtentReport/resource/jars/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="D:/Training/QSSW3/ExtentReport/resource/jars/jsoup-1.9.2.jar"/>
+	<classpathentry kind="lib" path="D:/Training/QSSW3/ExtentReport/resource/jars/mongodb-driver-3.3.0.jar"/>
+	<classpathentry kind="lib" path="D:/Training/QSSW3/ExtentReport/resource/jars/mongodb-driver-core-3.3.0.jar"/>
+	<classpathentry kind="lib" path="D:/Training/QSSW3/ExtentReport/resource/jars/selenium-server-standalone-3.11.0.jar"/>
+	<classpathentry kind="lib" path="D:/Training/QSSW3/ExtentReport/resource/jars/testng-6.9.10.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
